@@ -1,7 +1,7 @@
 <?php
 
 header("Content-Type: text/plain");
-isset($_GET('identifier')) ? $parameter = $_GET('identifier') : echo "Parameter 'identifier' is not found.";
+isset($_GET('identifier')) ? $parameter = $_GET('identifier') : print "Parameter 'identifier' is not found.";
 if preg_match('/^[a-zA-Z][\w]*$/', $parameter)
 {
     echo ('The \'identifier\' parameter is an identifier.')
