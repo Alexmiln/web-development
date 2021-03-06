@@ -11,9 +11,9 @@ else
     $passStrengh = 0;
     $len = strlen($password);
     $passStrength = $len * 4;
-    $passStrength += ($len - strlen(preg_replace('/\d/', '', $password))) *4;
-    $passStrength += ($len - strlen(preg_replace('/[A-Z]/', '', $password))) *2;
-    $passStrength += ($len - strlen(preg_replace('/[a-z]/', '', $password))) *2;
+    $passStrength += ($len - strlen(preg_replace('/\d/', '', $password))) * 4;
+    $passStrength += ($len - strlen(preg_replace('/[A-Z]/', '', $password))) * 2;
+    $passStrength += ($len - strlen(preg_replace('/[a-z]/', '', $password))) * 2;
     $passStrength -= preg_match('/\d/', $password) ? 0 : $len;
     $passStrength -= preg_match('/\D/', $password) ? 0 : $len;
     foreach (count_chars($password, 1) as $value)
