@@ -2,19 +2,23 @@ PROGRAM WorkWithQueryString(INPUT, OUTPUT);
 USES
   DOS;
 
-FUNCTION GetQueryStringParameter(Key: STRING): STRING; //Всё круто, но если не указать параметр для key,
-VAR                                                    //то ничего не пишет, а должно выводить 'Not found'.
- Param: STRING;
+FUNCTION GetQueryStringParameter(Key: STRING): STRING;
+VAR                                                    
+ Param, Querystring: STRING;
+ PosKey: INTEGER; 
 BEGIN {GetQueryStringParameter}
-  IF POS(Key, GetEnv('QUERY_STRING')) <> 0
+  Querystring := GetEnv('QUERY_STRING');
+  PosKey := POS(Key, GetEnv('QUERY_STRING'));
+  IF (PosKey <> 0) AND (COPY(Querystring, PosKey + LENGTH(Key), 1) = '=') AND ((COPY(Querystring, PosKey + LENGTH(Key) + 1, 1) <> '&') AND (COPY(Querystring, PosKey + LENGTH(Key) + 1, 1) <> ''))
+  //Переделать 
   THEN
     BEGIN
-      Param := COPY(GetEnv('QUERY_STRING'), POS(Key, GetEnv('QUERY_STRING')) + LENGTH(Key) + 1, 255);
+      Param := COPY(Querystring, PosKey + LENGTH(Key) + 1, 255);
       IF POS('&', Param) <> 0
       THEN
         GetQueryStringParameter := COPY(Param, 1, POS('&', Param) - 1)
       ELSE
-        GetQueryStringParameter := Param
+        GetQueryStringParameter := Param;
     END
  ELSE
     GetQueryStringParameter := 'Not found'
@@ -27,4 +31,3 @@ BEGIN {WorkWithQueryString}
   WRITELN('Last Name: ', GetQueryStringParameter('last_name'));
   WRITELN('Age: ', GetQueryStringParameter('age'))
 END. {WorkWithQueryString}
-
