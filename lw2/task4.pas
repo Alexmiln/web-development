@@ -10,7 +10,7 @@ BEGIN {GetQueryStringParameter}
   Querystring := GetEnv('QUERY_STRING');
   PosKey := POS(Key, GetEnv('QUERY_STRING'));
   IF (PosKey <> 0) AND (COPY(Querystring, PosKey + LENGTH(Key), 1) = '=') AND ((COPY(Querystring, PosKey + LENGTH(Key) + 1, 1) <> '&') AND (COPY(Querystring, PosKey + LENGTH(Key) + 1, 1) <> ''))
-  //Переделать 
+  //ГЏГҐГ°ГҐГ¤ГҐГ«Г ГІГј 
   THEN
     BEGIN
       Param := COPY(Querystring, PosKey + LENGTH(Key) + 1, 255);
@@ -18,7 +18,7 @@ BEGIN {GetQueryStringParameter}
       THEN
         GetQueryStringParameter := COPY(Param, 1, POS('&', Param) - 1)
       ELSE
-        GetQueryStringParameter := Param;
+        GetQueryStringParameter := Param
     END
  ELSE
     GetQueryStringParameter := 'Not found'
