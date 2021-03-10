@@ -1,6 +1,6 @@
 <?php
 
-header("Content-Type: text/plain");
+header('Content-Type: text/plain');
 $email = isset($_GET['email']) ? $_GET['email'] : null;
  if (($email !== null) and ($email !== ''))
 {

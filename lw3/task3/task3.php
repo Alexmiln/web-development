@@ -1,8 +1,8 @@
 <?php
 
-header("Content-Type: text/plain");
+header('Content-Type: text/plain');
 $password = isset($_GET['password']) ? $_GET['password'] : 0;
-if (preg_match('/^.*[\W].*$/', $password) or $password === 0 or $password == "")
+if (preg_match('/^.*[\W].*$/', $password) or $password === 0 or $password === "")
 {
     echo ($password === 0) ? "Parameter 'password' is not found." : "Invalid password entered. Try again.\nAvailable characters: a-z(A-Z), 0-9.";
 }
