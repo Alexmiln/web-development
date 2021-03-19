@@ -4,47 +4,49 @@
     <meta charset="UTF-8"/> 
     <meta name="description" content="Страница-визитка Милютина Александра"/>
     <title>Милютин Александр</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
   </head>
-  <body>
-    <div class="main">   
-      <div class="sidebar">
-        <img class="image" alt="mylife" src="images/mylife.jpg"/>
-        <div class="column">
-          <h2 class="column__title">Любимые писатели:</h2>
-          <ul class="column__list">
-            <li>Рэй Брэдбери</li>
-            <li>Эрих Мария Ремарк</li>
-            <li>Джордж Оруэлл</li>
-            <li>Габриэль Гарсиа Маркес</li>
-          </ul>
-        </div>
-        <div class="column">
-          <h2 class="column__title">Любимые фильмы:</h2>
-          <ol class="column__list">
-            <li>Побег из Шоушенка</li>
-            <li>La Belle Époque</li>
-            <li>Зелёная книга</li>
-            <li>Вторая жизнь Уве</li>
-          </ol>
-        </div>
+  <body style="display: flex;"> 
+    <div class="sidebar">
+      <img class="image" alt="mylife" src="images/mylife.jpg"/>
+      <div class="column">
+        <h2 class="column__title">Любимые писатели:</h2>
+        <ul class="column__list">
+          <li class="column__item">Рэй Брэдбери</li>
+          <li class="column__item">Эрих Мария Ремарк</li>
+          <li class="column__item">Джордж Оруэлл</li>
+          <li class="column__item">Габриэль Гарсиа Маркес</li>
+        </ul>
       </div>
-      <div class="content">
-        <div class="quote">
-          <div class="quote__text">Скромность и добросовестность вознаграждаются только в романах.</div>
-          <div class="quote__author">Эрих Мария Ремарк. "Три товарища"</div>
+      <div class="column">
+        <h2 class="column__title">Любимые фильмы:</h2>
+        <ol class="column__list">
+          <li class="column__item">Побег из Шоушенка</li>
+          <li class="column__item">La Belle Époque</li>
+          <li class="column__item">Зелёная книга</li>
+          <li class="column__item">Вторая жизнь Уве</li>
+        </ol>
+      </div>
+    </div>
+    <div class="content">
+      <div class="quote">
+        <div class="quote__text">Скромность и добросовестность вознаграждаются только в романах.</div>
+        <div class="quote__author">Эрих Мария Ремарк. "Три товарища"</div>
+      </div>
+      <div class="bio">
+        <div class="bio__header">Милютин Александр</div>
+        <div class="bio__text">
+          Бизнес-коуч, тренер личностного роста, гуру программирования. Ладно, с последним немного преукрасил. Студент ФИиВТа, стараюсь изо всех сил постигать программирование, люблю путешествовать и всегда, при наличии свободного времени и отсутсвия дел, готов отправиться куда угодно вместе с дружной компанией.</div>
+        <div class="hobby">
+          <div class="hobby__title">Мое хобби</div>
+          <div class="hobby__text">Из множества занятий, которыми я увлекаюсь в свободное время, могу выделить пару самых любимых: игра на гитаре и <s>сон</s> чтение. Гитарой увлекаюсь уже 5 лет, с небольшими перерывами <s>ну да, в полгода</s>. Не могу сказать, что достиг совершенства, но всё ещё впереди.</div>
         </div>
-        <div class="bio">
-          <div class="bio__header">Милютин Александр</div>
-          <div class="bio__text">В 1930‑е годы прошлого века физик Джордж Гамоу из университета штата Колорадо начал публиковать мини‑сериал рассказов о неком мистере Томпкинсе, банковском клерке средних лет. Мистер Томпкинс, как явствовало из этих историй, интересовался современной наукой.</div>
-          <div class="hobby">
-            <div class="hobby__title">Мое хобби</div>
-            <div class="hobby__text">Он регулярно посещал вечерние лекции местного университетского профессора и, разумеется, всегда засыпал на самом интересном месте, а проснувшись, обнаруживал себя в каком-нибудь параллельном мире, где один из основных законов физики действовал нетрадиционным образом.</div>
-          </div>
-          <a class="link" href="https://vk.com/alexmiln">Напиши мне</a>
-        </div>
+        <a class="link" href="https://vk.com/alexmiln">
+          <span class="link__text">Напиши мне</span>
+          <span class="link__end"></span>
+        </a>
       </div>
     </div>  
   </body>
