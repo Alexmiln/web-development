@@ -27,19 +27,15 @@
 .column__title
 {   
     margin: 0 0 -7px 0;
-    line-height: 32px;
     color: #15a98c;
-    font-weight: 600;
-    font-family: "Open Sans", sans-serif;
+    font: 600 24px/32px "Open Sans", sans-serif;
 }
 
 .column__list
 {
     padding: 0 0 0 18px;
-    font-size: 19px;
-    line-height: 36px;
     color: #555555;
-    font-family: "Georgia";
+    font: 19px/36px "Georgia";
 }
 
 .content
@@ -47,13 +43,13 @@
     position: relative;
     margin: 100px 0 0 0;
     padding: 41px 20px 0 0;
-    display: inline-block;
 }
 
 .quote
 {
-    margin: 0 0 106px 0;
+    margin: 0 0 41px 0;
     width: 502px;
+    height: 304px;
     background-image: url(/lw5/images/quotes.png);
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -63,22 +59,15 @@
 {
     padding: 70px 0 0 60px;
     width: 500px;
-    font-size: 28px;
-    line-height: 42px;
     color: #848484;
-    font-style: italic;
-    font-family: "Georgia";
+    font: italic 28px/42px "Georgia";
 }
 
 .quote__author
 {
     padding: 2px 0 0 63px;
-    margin: 0 0 81px 0;
-    font-size: 16px;
-    line-height: 42px;
     color: #333333;
-    font-weight: 600;
-    font-family: "Open Sans", sans-serif;
+    font: 600 16px/42px "Open Sans", sans-serif;
 }
 
 .quote__author::before
@@ -95,21 +84,18 @@
 .bio__header
 {
     position: relative;
-    margin: 0 0 80px 0;
+    margin: 0 0 81px 0;
     padding: 0 0 0 5px;
-    font-size: 48px;
-    line-height: 42px;
     color: #333333;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font: 700 48px/42px "Open Sans", sans-serif;
 }
 
 .bio__header::after
 {
     content: '';
     position: absolute;
-    margin: 73px 0 0 0;
     left: 0%;
+    top: 176%;
     width: 60px;
     height: 6px;
     border-radius: 3px;
@@ -121,34 +107,27 @@
     margin: 0 0 36px 0;
     width: 561px;
     height: 198px;
-    font-size: 19px;
-    line-height: 32px;
     color: #555555;
-    font-family: "Georgia";
+    font: 19px/32px "Georgia";
 }
 
 .hobby
 {
-    margin: 0 0 42px 0;
+    margin: 0 0 41px 0;
 }
 
 .hobby__title
 {
-    margin: 0 0 15px -2px;
-    font-size: 36px;
-    line-height: 42px;
+    margin: 0 0 16px -2px;
     color: #333333;
-    font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    font: 400 36px/42px "Open Sans", sans-serif;
 }
 
 .hobby__text
 {
     width: 562px;
-    font-size: 19px;
-    line-height: 32px;
     color: #555555;
-    font-family: "Georgia";
+    font: 19px/32px "Georgia";
 }
 
 .link
@@ -156,10 +135,8 @@
     text-decoration: underline;
     width: 562px;
     height: 263px;
-    font-size: 19px;
-    line-height: 32px;
     color: #15a98b;
-    font-family: "Georgia";
+    font: 19px/32px "Georgia";
 }
 
 .link::after
