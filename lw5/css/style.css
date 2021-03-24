@@ -22,22 +22,55 @@
 
 .column__title
 {   
-    margin: 0 0 -7px 0;
+    margin: 0 0 12px 0;
     color: #15a98c;
     font: 600 24px/32px "Open Sans", sans-serif;
 }
 
 .column__list
 {
-    padding: 0 0 0 18px;
+    padding: 0 0 0 3px;
+    margin: 0 0 20px 0;
     color: #555555;
     font: 19px/36px "Georgia";
-    text-align: left;
 }
 
 .column__item
 {
     padding: 0 0 0 1px;
+    list-style-type: none;
+}
+
+.column__item::before
+{
+    content: '';
+    display: inline-block;
+    position: relative;
+    margin: 0 11px 3px 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #555555;
+}
+
+.column__item_number
+{
+    margin: 0 0 0 17px;
+}
+
+.column__item_first
+{
+    padding: 0 0 0 1px;
+    margin: 0 0 0 -4px;
+    list-style-type: none;
+}
+
+.column__item_first::before
+{
+    content: '1.';
+    display: inline-block;
+    position: relative;
+    margin: 0 4px 0px 0px;
 }
 
 .content
