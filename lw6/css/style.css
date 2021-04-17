@@ -364,7 +364,7 @@
 {
     color: #555555;
     padding: 17px 37px 14px 14px;
-    font: 16px/32px "Georgia";
+    font: 11px/32px "Georgia";
 }
 
 
@@ -427,7 +427,7 @@
 
     .movies__item
     {
-        margin: 6% 0;
+        margin: 6% 0 ;
     }
     
     .movies__header
@@ -479,6 +479,13 @@
     .footer
     {
         height: auto;
+    }
+
+    .movies__pair
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
     
 }
@@ -562,6 +569,11 @@
     .contact-me__input
     {
         margin: 0 0 27px 0;
+    }
+
+    .footer__text
+    {
+        font-size: 14px;
     }
 }
 
@@ -689,6 +701,26 @@
         height: 70px;
     }
 
+    .footer__text
+    {
+        font-size: 16px;
+    }
+
+    .movies__container
+    {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+    }
+
+    .movies__pair
+    {
+        flex-direction: row;
+        width: 66%;
+        min-width: 606px;
+    }
+
 }
 
 @media screen and (min-width:1024px)
@@ -781,8 +813,7 @@
 
     .movies__container
     {
-        flex-wrap: wrap;
-        justify-content: space-between;
+        width: 85%;
     }
 
 }
@@ -810,5 +841,11 @@
     {
         left: -436px;
         margin: 0;
+    }
+
+    .movies__pair
+    {
+        width: 590px;
+        min-width: none;
     }
 }
