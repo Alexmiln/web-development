@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="500">
+<!-- body -->
+  <path fill="#3a73c4" d="M 136 370 V 399 H 274 V 370" />
+  <path fill="#1e57a5" d="M 136 378 C 175 389 225 389 272 376" />
+  <path fill="#d26f60" d="M 137 285 C 114 315 110 333 109 350 L 128 370 L 126  375 C 175 388 225 388 272 375 L 292 352 C 291 333 285 315 265 282" />
+  <ellipse fill="#ff203f" stroke="#000000" stroke-width="0.1" cx="168" cy="303" rx="37" ry="10" transform="rotate(27 168 303)" />
+  <ellipse fill="#ff203f" stroke="#000000" stroke-width="0.1" cx="235 " cy="306" rx="35" ry="10" transform="rotate(156 235 306)" />
+  <path d="M 133 351 L 139 327" stroke="#000000" />
+  <path d="M 267 356 L 261 328" stroke="#000000" />
+  <path d="M 204 321 L 200 385" stroke="#000000" stroke-width="2" />
+  <circle fill="#000000" cx="194" cy="328" r="2.5" />
+  <circle fill="#000000" cx="193" cy="349" r="2.5" />
+  <circle fill="#000000" cx="192" cy="371" r="2.5" />
+  <circle fill="#ff203f" cx="121" cy="355" r="16"/>
+  <circle fill="#ff203f" cx="280" cy="360" r="16"/>
+  <circle fill="#ff203f" stroke="#000000" stroke-width="0.1" cx="132" cy="351" r="7"/>
+  <circle fill="#ff203f" stroke="#000000" stroke-width="0.1" cx="267" cy="356" r="7"/>
+  <path fill="3a373e" d="M 122 403 V 401 C 140 392 170 390 199 397 C 258 395 260 395 287 402 V 403 L 199 402 L 160 401" />
+<!-- face -->
+  <ellipse fill="#ffeac1" cx="199" cy="208" rx="100" ry="102"/>
+  <ellipse fill="#ffffff" stroke="#000000" stroke-width="0.1" cx="173" cy="222" rx="31" ry="27" transform="rotate(118 173 222)" />
+  <ellipse fill="#ffffff" stroke="#000000" stroke-width="0.1" cx="228" cy="220" rx="31" ry="27" transform="rotate(60 228 220)" />
+  <circle fill="#000000" cx="182" cy="223" r="3"/>
+  <circle fill="#000000" cx="216" cy="222" r="3"/>
+  <path fill="#000000" d="M 177 273 L 230 272 L 233 273 L 222 285 L 209 294 C 209 303 179 281 177 275" />
+  <path fill="#ffffff" d="M 182 275 H 192 V 281 H 185" />
+  <path fill="#ffffff" d="M 194 275 H 204 V 281 H 194" />
+  <path fill="#ffffff" d="M 206 275 L 218 274 L 216 281 L 206 282" />
+  <path fill="#ffffff" d="M 220 274 H 229 L 224 280 L 218 281" />
+<!-- hat -->
+  <path fill="#3e76c6" d="M 100, 190 A 100, 100 0 0, 1 296, 182" />
+  <path fill="#ff203f" d="M 97 188 A 300 300 0 0 1 300 178 V 200 A 300 280 0 0 0 97 208" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2"/>
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(22.5 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(45 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(67.5 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(90 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(112.5 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(135 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(157.5 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(180 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(202.5 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(225 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(270 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(292.5 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(315 189 106)" />
+  <rect x="166" y="104" fill="#ff203f" stroke="#000000" stroke-width="0.5" width="46" height="4" rx="2" ry="2" transform="rotate(337.5 189 106)" />
+<!-- eyebrows -->
+  <path stroke="#000000" stroke-width="3" d="M 134 199 L 155 178" />
+  <path stroke="#000000" stroke-width="3" d="M 235 176 L 260 195" />
+</svg>

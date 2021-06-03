@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="500">
+  <!-- body -->
+  <path fill="#21837e" d="M 132 370 V 398 H 267 V 370" />
+  <path fill="#48464b" d="M 123 399 V 396 L 140 394 L 202 392 L 279 397 V 400 L 230 400.5 L 202 399 L 170 400.5" />
+  <path fill="#ff6118" d="M 132 280 C 110 308 98 333 101 350 L 128 370 C 175 383 225 383 272 374 L 295 352 C 294 333 288 315 267 279" />
+  <path fill="#00ad51" stroke="#000000" stroke-width="0.1" d="M 132 280 C 140 295 198 322 202 310 C 204 322 276 299 270 276" />
+  <path d="M 127 347 L 134 323" stroke="#000000" />
+  <path d="M 266 356 L 263 325" stroke="#000000" />
+<!-- hands -->
+  <circle fill="#4ec43d" cx="114" cy="355" r="17" />
+  <circle fill="#4ec43d" cx="281" cy="361" r="17" />
+  <circle fill="#4ec43d" stroke="#000000" stroke-width="0.1" cx="126" cy="350" r="7.5" />
+  <circle fill="#4ec43d" stroke="#000000" stroke-width="0.1" cx="270" cy="356" r="7.5" />
+<!-- head -->
+  <ellipse fill="#ffeac1" cx="200" cy="206" rx="101" ry="99" />
+  <ellipse fill="#ffffff" stroke="#000000" stroke-width="0.1" cx="172" cy="209" rx="34" ry="29" transform="rotate(123 172 209)" />
+  <ellipse fill="#ffffff" stroke="#000000" stroke-width="0.1" cx="231" cy="208" rx="34" ry="29" transform="rotate(60 231 208)" />
+  <circle fill="#000000" cx="181" cy="210" r="3" />
+  <circle fill="#000000" cx="215" cy="210" r="3" />
+  <path fill="#000000" d="M 173 265 L 205 263 L 233 264 L 235 265 L 225 276 L 208 289 C 209 295 183 278 173 269" />
+  <path fill="#ffffff" d="M 178 266 H 190 L 189 274 L 182 273" />
+  <path fill="#ffffff" d="M 191 265 L 204 265 V 273 L 191 274" />
+  <path fill="#ffffff" d="M 206 265 H 220 L 216 274 L 206 274" />
+  <path fill="#ffffff" d="M 222 265 H 232 L 226 272 L 217 274" />
+<!-- hat -->
+  <rect x="98" y="87" fill="#4dc53d" width="202" height="84" rx="20" ry="20" />
+  <rect x="98" y="110" fill="#4dc53d" width="202" height="62" rx="0" ry="0" />
+  <ellipse fill="#4dc53d" stroke="#000000" stroke-width="0.1" cx="94" cy="207" rx="50" ry="18" transform="rotate(110 94 207)" />
+  <ellipse fill="#4dc53d" stroke="#000000" stroke-width="0.1" cx="304" cy="209" rx="50" ry="18" transform="rotate(70 304 209)" />
+  <path fill="#00ad50" d="M 112 124 V 181 C 180 168 240 168 286 182 V 124" />
+  <path stroke="#000000" stroke-width="3" d="M 142 177 L 169 161" />
+  <path stroke="#000000" stroke-width="3" d="M 227 163 L 257 177" />
+  <path d="M 202 310 L 202 380" stroke="#000000" stroke-width="2" />
+<!-- eyebrows -->
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 153 323 L 168 340 L 182 323 L 183 355 L 153 356 L 153 323 L 182 322" />
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 219 322 L 232 336 L 246 322 L 247 353 L 219 354 L 219 322 L 246 321" />
+</svg>
